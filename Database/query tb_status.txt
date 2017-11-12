@@ -1,0 +1,7 @@
+CREATE TABLE `tb_status` (
+  `id_status` int(11) NOT NULL auto_increment,
+  `nama` varchar(50) NOT NULL,
+  `isi_status` varchar(255) NOT NULL,
+  `waktu` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY  (`id_status`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;

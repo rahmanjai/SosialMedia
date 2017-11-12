@@ -1,0 +1,108 @@
+#kotak {
+	border: solid 1px white;
+	margin:60 auto;
+	width:380px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px grey;
+  padding: 5px;
+  padding-bottom: 40px;
+  font-family: roboto;
+}
+#kotak:hover{
+  background-color: #E3F1FA;
+}
+
+#programmer {
+    float: left;
+	margin-top: 6px;
+	margin-left: 5px;
+	width:120px;
+	background-color: white;
+	border-radius: 160px;
+	box-shadow: 2px 2px 5px grey;
+	padding: 45px;
+	text-align: center;
+	font-family: roboto;
+	font-weight: bold;
+	border: 1px grey solid;
+}
+#programmer:hover {
+	border: 1px white solid;
+	background-color: #E3F1FA;
+}
+
+
+#list{
+  float: left;
+  margin-top: 30px;
+  margin-left: -5px;
+  width:200px;
+  padding: 3px;
+}
+
+#nama{
+  float: left;
+  font-family: arial;
+  font-size: 12px;
+  font-weight: bold;
+}
+#status{
+  font-family: calibri;
+  font-size:18px;
+  color: #3F4245;
+}
+#waktu {
+  float: right;
+  text-align: right;
+  font-size: 11px;
+  font-family: calibri;
+}
+.a{
+  float: left;
+  display: inline-block;
+  text-decoration: none;
+  margin: auto;
+  width: 40px;
+  height : 20px;
+  font-size: 11px;
+  font-family: calibri;
+  border: 2px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+ul.edit li
+{
+  float: right;
+	display: inline-block;
+	margin-right:10px;
+	margin-top: 5px;
+  font-size: 18px;
+}
+
+ul.edit li a{
+  display: block;
+  width: 30px;
+	color: red;
+	font-family: calibri;
+	font-size: 12px;
+	text-decoration: none;
+	border: 1px red solid;
+	padding: 7px 10px;
+	border-radius: 20px;
+	margin:auto;
+  background-color: white;
+}
+
+ul.edit li a:hover
+{
+	color: white;
+	background: red;
+	border-radius: 20px;
+	border: 1px white solid;
+}
